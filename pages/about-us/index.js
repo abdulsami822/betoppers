@@ -23,12 +23,12 @@ export default function AboutUs() {
         </p>
         <p className={classes.content}>
           Our Flagship Product; Foundation Books || Classes 6-10 || Physics,
-          Chemistry, Mathematics & Biology || Rigor of 'Comprehensive Practice'
-          - 23K+ Questions for Student to choose from - has massively supported
-          Students who aspire to achieve Academic Excellence in Mathematics and
-          Sciences; Clear their respective Board Exams like CBSE, ICSE and
-          various State Boards in India and go on to Crack all important
-          Competitive Exams like IIT JEE, NEET etc.
+          Chemistry, Mathematics & Biology || Rigor of &aposComprehensive
+          Practice&apos - 23K+ Questions for Student to choose from - has
+          massively supported Students who aspire to achieve Academic Excellence
+          in Mathematics and Sciences; Clear their respective Board Exams like
+          CBSE, ICSE and various State Boards in India and go on to Crack all
+          important Competitive Exams like IIT JEE, NEET etc.
         </p>
         <p className={classes.content}>
           Our Products have niche; be it, Comprehensive Practice, Self

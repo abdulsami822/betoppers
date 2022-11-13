@@ -21,10 +21,10 @@ export default function Navbar() {
           Products
         </Link>
         <Link className={classes.navlink} href="/contact-us">
-          Contact-us
+          Contact us
         </Link>
         <Link className={classes.navlink} href="/partner-with-us">
-          Partner-with-us
+          Partner with us
         </Link>
         <Link className={classes.navlink} href="/about-us">
           About

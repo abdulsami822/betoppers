@@ -2,11 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-import {
-  AiFillFacebook,
-  AiFillTwitterSquare,
-  AiFillLinkedin,
-} from "react-icons/ai";
+import { AiFillFacebook, AiFillTwitterSquare } from "react-icons/ai";
+import { FaInstagramSquare } from "react-icons/fa";
 
 import classes from "./styles.module.scss";
 
@@ -23,9 +20,27 @@ export default function Footer() {
           className={classes.logo}
         />
         <div className={classes.iconContainer}>
-          <AiFillFacebook className={classes.icon} />
-          <AiFillTwitterSquare className={classes.icon} />
-          <AiFillLinkedin className={classes.icon} />
+          <a
+            href="https://www.facebook.com/betoppers"
+            rel="nofollow noreferrer noopener"
+            target="_blank"
+          >
+            <AiFillFacebook className={classes.icon} />
+          </a>
+          <a
+            href="https://www.twitter.com/be_toppers"
+            rel="nofollow noreferrer noopener"
+            target="_blank"
+          >
+            <AiFillTwitterSquare className={classes.icon} />
+          </a>
+          <a
+            href="https://www.instagram.com/betoppers"
+            rel="nofollow noreferrer noopener"
+            target="_blank"
+          >
+            <FaInstagramSquare className={classes.icon} />
+          </a>
         </div>
         <a href="info@usnedutech.com" className={classes.contactEmail}>
           info@usnedutech.com

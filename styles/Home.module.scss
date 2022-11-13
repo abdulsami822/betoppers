@@ -1,0 +1,17 @@
+@import "./var";
+
+.banner {
+  height: calc(100vh - $navbarHeight);
+  max-height: calc(100vh - $navbarHeight);
+  padding: 0rem $padding-sides;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+
+  .bannerImage {
+    $size: 80%;
+    height: $size;
+    width: $size;
+    justify-self: center;
+  }
+}

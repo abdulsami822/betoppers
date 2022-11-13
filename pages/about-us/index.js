@@ -23,8 +23,8 @@ export default function AboutUs() {
         </p>
         <p className={classes.content}>
           Our Flagship Product; Foundation Books || Classes 6-10 || Physics,
-          Chemistry, Mathematics & Biology || Rigor of &aposComprehensive
-          Practice&apos - 23K+ Questions for Student to choose from - has
+          Chemistry, Mathematics & Biology || Rigor of &apos;Comprehensive
+          Practice&apos; - 23K+ Questions for Student to choose from - has
           massively supported Students who aspire to achieve Academic Excellence
           in Mathematics and Sciences; Clear their respective Board Exams like
           CBSE, ICSE and various State Boards in India and go on to Crack all

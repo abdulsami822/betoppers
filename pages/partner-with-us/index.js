@@ -14,11 +14,15 @@ export default function ContactUs() {
 
   return (
     <Layout>
-      <SEO title="Contact Us" description="contact us" url={router.asPath} />
-      <section className={classes.contactUsSection}>
+      <SEO
+        title="Partner With Us"
+        description="contact us"
+        url={router.asPath}
+      />
+      <section className={classes.partnerWithUsSection}>
         <div className={classes.formContainer}>
           <form className={classes.form}>
-            <h1 className={classes.formHeader}>Contact Us</h1>
+            <h1 className={classes.formHeader}>Partner With Us</h1>
             <div className={classes.inputContainer}>
               <label htmlFor="name" className={classes.label}>
                 Name
@@ -38,19 +42,34 @@ export default function ContactUs() {
               <input id="email" className={classes.input} />
             </div>
             <div className={classes.inputContainer}>
+              <label htmlFor="describesYou" className={classes.label}>
+                What best describes you
+              </label>
+              <select id="describesYou" className={classes.input}>
+                <option value="none">-None-</option>
+                <option value="author">Author</option>
+                <option value="distributor">Distributor</option>
+                <option value="educationalInstitute">
+                  Educational Institute
+                </option>
+                <option value="coaching Institute">Coaching Institute</option>
+                <option value="tutor">Tutor</option>
+              </select>
+            </div>
+            <div className={classes.inputContainer}>
               <label htmlFor="message" className={classes.label}>
-                Message
+                Want to tell us anything?
               </label>
               <textarea
                 id="message"
                 className={clsx(classes.input, classes.textarea)}
               />
             </div>
-            <button className={classes.submitButton}>Submit</button>
+            <button className={classes.submitButton}>Get Started</button>
           </form>
         </div>
         <Image
-          src="/contact-us/contactus.svg"
+          src="/partnerWithUs/partnerwithus.svg"
           alt="contact us"
           title="contact us"
           width={200}

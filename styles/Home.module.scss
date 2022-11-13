@@ -8,6 +8,23 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 
+  .header {
+    font-size: 6rem;
+    .highlight {
+      font-size: inherit;
+      color: $primary-color;
+    }
+  }
+
+  .tagline {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .lessSize {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
   .bannerImage {
     $size: 80%;
     height: $size;

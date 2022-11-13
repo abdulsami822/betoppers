@@ -13,6 +13,7 @@
   }
   .navlink {
     font-weight: 900;
+    font-size: 1.75rem;
     transition: all 300ms ease-in-out;
     &:hover {
       color: darken($primary-color, 10%);

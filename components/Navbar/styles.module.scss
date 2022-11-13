@@ -1,0 +1,31 @@
+@import "styles/_var";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: $navbarHeight;
+  margin: 1rem $padding-sides;
+  .navlinksContainer {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navlink {
+    font-weight: 900;
+    transition: all 300ms ease-in-out;
+    &:hover {
+      color: darken($primary-color, 10%);
+    }
+  }
+}
+
+.logo {
+  position: relative;
+  height: calc($navbarHeight - 20px);
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
